@@ -1,0 +1,5 @@
+@mixin h1($color: $primaryColor) {
+    font-size:59px;
+    font-color: $color;
+    font-family: $mainFont;
+}

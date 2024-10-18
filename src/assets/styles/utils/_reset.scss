@@ -6,13 +6,79 @@
 html, 
 body {
     font-size: 10px;
-    font-family:$mainFont;
+}
+
+a {
+    text-decoration: none;
 }
 
 h1, 
 h2, 
-h3 {
-    font-family:$mainFont;
-    // margin:0 auto;
+h3,
+p {
     text-align: center;
 }
+
+h1 {
+    font-family:$heading1Font;
+    text-transform: uppercase;
+    font-size: $heading1Size;
+    letter-spacing: $headingsLetterSpacing;
+    font-weight: 900;
+}
+
+h2 {
+    text-transform: uppercase;
+    font-family:$heading2Font;
+    font-size: $heading2Size;
+    letter-spacing: $headingsLetterSpacing;
+}
+
+h3 {
+    font-family: $heading2Font;
+    font-size: $heading3Size;
+    text-transform: uppercase;
+    letter-spacing: $headingsLetterSpacing;
+}
+
+p {
+    font-size: $paragraphSize;
+    font-family: $pagraphFont;
+    letter-spacing: $paragraphLetterSpacing;
+    line-height: 1.5;
+}
+
+.btn {
+    transition: 0.33s;
+    position: relative;
+    text-transform: uppercase;
+    font-size: 2rem;
+    font-family: $buttonFont;
+    letter-spacing: 10;
+
+    
+    &:hover {
+        scale: 1.05;  
+    }
+    
+    &::after{
+        padding-left: 2rem;
+        font: var(--fa-font-solid);
+        content: '\f054';
+    }
+}
+
+.btn-light{
+    &:hover{
+        // scale: 0.99;
+        background-color: $buttonColor;
+        border-color: transparent;
+        color: $buttonFontColor;
+    }
+}
+
+.divider {
+    height: 100px;
+}
+//Anims
+

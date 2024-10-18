@@ -1,5 +1,42 @@
-@mixin h1($color: $primaryColor) {
-    font-size:59px;
-    font-color: $color;
-    font-family: $mainFont;
+@mixin gradientSharp($deg, $startColor, $endcolor) {
+    background: linear-gradient(
+        $deg,
+        $startColor 50%,
+        $endcolor 50%
+    );
+} 
+
+@mixin gradientSmooth($deg, $startColor, $endColor) {
+    background: linear-gradient(
+        $deg,
+        $startColor,
+        $endColor
+    );
+}
+
+@mixin primaryButton($verticalPadding: 5rem, $horizontalPadding: 6rem) {
+    display: inline-block;
+    border-radius: 15px;
+
+    background-color: $buttonColor;
+    color: $buttonFontColor;
+
+    padding-top: $verticalPadding;
+    padding-bottom: $verticalPadding;
+    padding-left: $horizontalPadding;
+    padding-right: $horizontalPadding;
+}
+
+@mixin secondaryButton($verticalPadding: 5rem, $horizontalPadding: 6rem) {
+    display: inline-block;
+    border-radius: 15px;
+
+    background-color: transparent;
+    border: 5px solid $buttonColor;
+    color: $buttonColor;
+
+    padding-top: $verticalPadding;
+    padding-bottom: $verticalPadding;
+    padding-left: $horizontalPadding;
+    padding-right: $horizontalPadding;
 }

@@ -10,9 +10,27 @@
     max-width: 1180px;
     margin: auto;
 }
+
 .ui__title {
     font-size: 2rem;
     margin-bottom: 1rem;
     margin-top: 2rem;
     text-decoration: underline;
 }
+
+.test {
+    @include gradientSharp(45deg, $primaryColor, $secondaryColor);
+    color: $white;
+    min-height: 100px;
+    padding: 2rem 0;
+}
+
+.btn {
+    margin: 2rem;
+    @include primaryButton();
+}
+
+.btn-light {
+    @include secondaryButton(4.55rem, 6rem);
+}
+

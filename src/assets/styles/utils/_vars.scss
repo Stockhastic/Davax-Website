@@ -1,12 +1,30 @@
 // colors
 $white: #fff;
-$primaryColor:#000;
-$secondaryColor:#000;
+$black: #000;
 
-// $textColor: ; 
+$primaryColor:#002859;
+$secondaryColor:#00132B;
+
+$buttonColor: #9263BF;
+
+// $textColor: 
+$primaryFontColor: $white; 
+$buttonFontColor: #7BEDC4;
 
 // fonts
-$mainFont:"Afacadflux"; 
+$heading1Font:"TekoBold"; 
+$heading2Font:"IntSB";
+$pagraphFont:"IntReg";
+$buttonFont:"IntSB";
+
+$headingsLetterSpacing: 9;
+$paragraphLetterSpacing: 2;
+
+// sizes
+$heading1Size: 16rem;
+$heading2Size: 2.2rem;
+$heading3Size: 2rem;
+$paragraphSize:  3.3rem;
 
 
 //screens

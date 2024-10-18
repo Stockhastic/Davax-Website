@@ -1,8 +1,35 @@
+// @font-face {
+//     font-family: 'Afacadflux';
+//     src: url('/src/assets/fonts/afacadflux-webfont.woff2') format('woff2'),
+//          url('/src/assets/fonts/afacadflux-webfont.woff') format('woff'),
+//          url('/src/assets/fonts/afacadflux-webfont.ttf') format('truetype');
+//     font-weight: normal;
+//     font-style: normal;
+// }
+
 @font-face {
-    font-family: 'Afacadflux';
-    src: url('/src/assets/fonts/afacadflux-webfont.woff2') format('woff2'),
-         url('/src/assets/fonts/afacadflux-webfont.woff') format('woff'),
-         url('/src/assets/fonts/afacadflux-webfont.ttf') format('truetype');
+    font-family: 'TekoBold';
+    src: url('/src/assets/fonts/teko-bold-Bold.woff2') format('woff2'),
+         url('/src/assets/fonts/teko-bold-Bold.woff') format('woff'),
+         url('/src/assets/fonts/teko-bold-Bold.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'IntReg';
+    src: url('/src/assets/fonts/inter-regular-Inter.woff2') format('woff2'),
+         url('/src/assets/fonts/inter-regular-Inter.woff') format('woff'),
+         url('/src/assets/fonts/inter-regular-Inter.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'IntSB';
+    src: url('/src/assets/fonts/inter-semibold-Inter.woff2') format('woff2'),
+         url('/src/assets/fonts/inter-semibold-Inter.woff') format('woff'),
+         url('/src/assets/fonts/inter-semibold-Inter.ttf') format('truetype');
     font-weight: normal;
     font-style: normal;
 }

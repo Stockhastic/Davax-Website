@@ -1,4 +1,4 @@
-@mixin gradientSharp($deg, $startColor, $endcolor) {
+@mixin gradientSharp($deg: 45deg, $startColor: $primaryColor, $endcolor: $secondaryColor) {
     background: linear-gradient(
         $deg,
         $startColor 50%,
@@ -6,7 +6,7 @@
     );
 } 
 
-@mixin gradientSmooth($deg, $startColor, $endColor) {
+@mixin gradientSmooth($deg: 45deg, $startColor: $primaryColor, $endcolor: $secondaryColor) {
     background: linear-gradient(
         $deg,
         $startColor,

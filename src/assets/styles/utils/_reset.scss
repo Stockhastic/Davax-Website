@@ -32,7 +32,7 @@ h1 {
     font-weight: 900;
 
     @media ($tablet) {
-        font-size: $heading1SizeMobile;
+        font-size: $heading1SizeDesktop;
     };
 }
 
@@ -53,6 +53,10 @@ h3 {
     font-size: $heading3SizeMobile;
     text-transform: uppercase;
     letter-spacing: $headingsLetterSpacing;
+    
+    @media ($tablet) {
+        font-size: $heading3SizeDesktop;
+    };  
 }
 
 p {
@@ -60,6 +64,9 @@ p {
     font-family: $pagraphFont;
     letter-spacing: $paragraphLetterSpacing;
     line-height: 2;
+    @media ($tablet) {
+        font-size: $paragraphSizeDesktop;
+    };  
 }
 
 .btn {

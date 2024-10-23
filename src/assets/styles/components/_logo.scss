@@ -1,4 +1,13 @@
 .logo {
+    background-color: #fff;
+
+    @media ($tablet) {
+        display: flex;
+        justify-content: center;    
+    }
+
+
+
 
     & > img{
         padding: 3rem 5rem;

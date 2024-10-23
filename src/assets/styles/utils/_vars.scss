@@ -21,15 +21,19 @@ $headingsLetterSpacing: 9;
 $paragraphLetterSpacing: 2;
 
 // sizes
-$heading1Size: 16rem;
-$heading2Size: 2.2rem;
-$heading3Size: 2rem;
-$paragraphSize:  3.3rem;
 
+// mobile
+$heading1Size: 5.5rem;
+$heading2Size: 1rem;
+$heading3Size: 2rem;
+$paragraphSize:  2.5rem;
 $dividerHeight: 500px;
 
+//mobile
+$heading1SizeDesktop: 14rem; 
+$heading2SizeDersktop: 2.2rem; 
 
 //screens
 
-$dektopWidth:1200px;
-$mobileWidth:432px;
+$tablet: "min-width: 767px";
+$desktop: "min-width: 1024px";

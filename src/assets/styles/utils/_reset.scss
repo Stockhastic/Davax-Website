@@ -25,6 +25,10 @@ h1 {
     font-size: $heading1Size;
     letter-spacing: $headingsLetterSpacing;
     font-weight: 900;
+
+    @media ($tablet) {
+        font-size: $heading1SizeMobile;
+    };
 }
 
 h2 {
@@ -32,6 +36,10 @@ h2 {
     font-family:$heading2Font;
     font-size: $heading2Size;
     letter-spacing: $headingsLetterSpacing;
+
+    @media ($tablet) {
+        font-size: $heading2SizeMobile;
+    };
 }
 
 h3 {
@@ -80,5 +88,8 @@ p {
 .divider {
     height: $dividerHeight;
 }
+
 //Anims
+
+//Parents
 

@@ -14,22 +14,22 @@
     );
 }
 
-@mixin primaryButton($verticalPadding: 5rem, $horizontalPadding: 6rem) {
+@mixin primaryButton($verticalPadding: 1.1rem, $horizontalPadding: 2rem) {
     display: inline-block;
-    border-radius: 15px;
+    border-radius: 8px;
 
     background-color: $buttonColor;
     color: $buttonFontColor;
-
     padding-top: $verticalPadding;
     padding-bottom: $verticalPadding;
     padding-left: $horizontalPadding;
     padding-right: $horizontalPadding;
+    letter-spacing: $buttonLS;
 }
 
 @mixin secondaryButton($verticalPadding: 5rem, $horizontalPadding: 6rem) {
     display: inline-block;
-    border-radius: 15px;
+    border-radius: 5px;
 
     background-color: transparent;
     border: 5px solid $buttonColor;
@@ -39,4 +39,10 @@
     padding-bottom: $verticalPadding;
     padding-left: $horizontalPadding;
     padding-right: $horizontalPadding;
+}
+
+@mixin hoverLight{
+    &:hover{
+        color: $buttonFontColor;
+    }
 }

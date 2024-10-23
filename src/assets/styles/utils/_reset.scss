@@ -9,20 +9,25 @@ body {
 }
 
 a {
+    display: inline-block;
     text-decoration: none;
+    font-family: $pagraphFont;
+    font-size: $linksSizeMobile;
+    color: $white;
 }
 
 h1, 
 h2, 
 h3,
 p {
-    text-align: center;
+    text-align: left;
+    color: #fff;
 }
 
 h1 {
     font-family:$heading1Font;
     text-transform: uppercase;
-    font-size: $heading1Size;
+    font-size: $heading1SizeMobile;
     letter-spacing: $headingsLetterSpacing;
     font-weight: 900;
 
@@ -34,43 +39,43 @@ h1 {
 h2 {
     text-transform: uppercase;
     font-family:$heading2Font;
-    font-size: $heading2Size;
-    letter-spacing: $headingsLetterSpacing;
+    font-size: $heading2SizeMobile;
+    letter-spacing: 6;
+    line-height: 1.2rem;
 
     @media ($tablet) {
-        font-size: $heading2SizeMobile;
+        font-size: $heading2SizeDesktop;
     };
 }
 
 h3 {
     font-family: $heading2Font;
-    font-size: $heading3Size;
+    font-size: $heading3SizeMobile;
     text-transform: uppercase;
     letter-spacing: $headingsLetterSpacing;
 }
 
 p {
-    font-size: $paragraphSize;
+    font-size: $paragraphSizeMobile;
     font-family: $pagraphFont;
     letter-spacing: $paragraphLetterSpacing;
-    line-height: 1.5;
+    line-height: 2;
 }
 
 .btn {
     transition: 0.33s;
     position: relative;
     text-transform: uppercase;
-    font-size: 2rem;
+    font-size: $buttonFontSize;
     font-family: $buttonFont;
     letter-spacing: 10;
-
     
     &:hover {
         scale: 1.05;  
     }
     
     &::after{
-        padding-left: 2rem;
+        padding-left: 1.2rem;
         font: var(--fa-font-solid);
         content: '\f054';
     }
@@ -78,7 +83,6 @@ p {
 
 .btn-light{
     &:hover{
-        // scale: 0.99;
         background-color: $buttonColor;
         border-color: transparent;
         color: $buttonFontColor;

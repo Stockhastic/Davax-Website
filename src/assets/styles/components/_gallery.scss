@@ -1,0 +1,7 @@
+.gallery {
+    outline: 3px solid #f00;
+
+    & > img {
+        width: 100%;
+    }
+}

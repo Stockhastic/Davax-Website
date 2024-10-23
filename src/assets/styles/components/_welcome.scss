@@ -1,0 +1,13 @@
+.welcome{
+    outline: 3px solid #f00;
+    min-height: 60vh;
+    padding: 6.5rem 3rem;
+
+    & > h2, h1, p {
+        margin: 1.4rem 0;
+    }
+    
+    & > h1 {
+        margin-bottom: 2.5rem;
+    }
+}

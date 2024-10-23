@@ -1,0 +1,22 @@
+.contacts {
+    padding: 6.5rem 3rem;
+    outline: 2px solid red;
+
+    & > h1, h2, p {
+        margin: 1.4rem 0;
+    }
+    & > a {
+        transition: $slowAnim;
+        margin: 1.5rem 0;
+        @include hoverLight();
+    }
+}
+
+.socico {
+    padding: 2rem 1rem;
+    transition: $regAnim;
+    &:hover{
+        scale: 1.1;
+        filter: brightness(2) hue-rotate(-150deg);
+    }
+}

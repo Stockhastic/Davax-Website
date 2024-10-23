@@ -17,23 +17,28 @@ $heading2Font:"IntSB";
 $pagraphFont:"IntReg";
 $buttonFont:"IntSB";
 
-$headingsLetterSpacing: 9;
-$paragraphLetterSpacing: 2;
+$headingsLetterSpacing: 5;
+$paragraphLetterSpacing: 0.2;
+$buttonLS: 5;
 
-// sizes
-
-// mobile
-$heading1Size: 5.5rem;
-$heading2Size: 1rem;
-$heading3Size: 2rem;
-$paragraphSize:  2.5rem;
+// mobile sizes
+$heading1SizeMobile: 3.5rem;
+$heading2SizeMobile: 1rem;
+$heading3SizeMobile: 2rem;
+$paragraphSizeMobile:  1.4rem;
 $dividerHeight: 500px;
+$linksSizeMobile: 1.6rem;
+$buttonFontSize: 1.2rem;
 
-//mobile
+//desktop sizes
 $heading1SizeDesktop: 14rem; 
-$heading2SizeDersktop: 2.2rem; 
+$heading2SizeDesktop: 2.2rem; 
 
 //screens
 
 $tablet: "min-width: 767px";
 $desktop: "min-width: 1024px";
+
+//animation speed
+$slowAnim: 0.33s;
+$regAnim: 0.25s;

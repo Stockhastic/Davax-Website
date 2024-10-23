@@ -1,3 +1,13 @@
 @import './utils';
 @import './components';
 @import './layout';
+
+body{
+    @include gradientSharp();
+    height: 100vh;
+    background-attachment: fixed;
+}
+
+.btn {
+    @include primaryButton();
+}

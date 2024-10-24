@@ -3,12 +3,10 @@
 
     @media ($tablet) {
         display: flex;
-        justify-content: center;    
+        justify-content: center;
+        padding: 6rem;    
     }
-
-
-
-
+    
     & > img{
         padding: 3rem 5rem;
         background-color: #fff;

@@ -15,7 +15,7 @@
 }
 
 @mixin primaryButton($verticalPadding: 1.1rem, $horizontalPadding: 2rem) {
-    display: inline-block;
+    // display: inline-block;
     border-radius: 8px;
 
     background-color: $buttonColor;
@@ -28,7 +28,7 @@
 }
 
 @mixin secondaryButton($verticalPadding: 5rem, $horizontalPadding: 6rem) {
-    display: inline-block;
+    // display: inline-block;
     border-radius: 5px;
 
     background-color: transparent;

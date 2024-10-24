@@ -1,7 +1,16 @@
 .gallery {
-    outline: 3px solid #f0f;
+    // outline: 3px solid #f0f;
+
+    @media ($tablet) {
+        display: flex;
+        width: 100%;
+    }
 
     & > img {
         width: 100%;
+
+        @media ($tablet) {
+            width: 50%;
+        } 
     }
 }

@@ -1,6 +1,6 @@
 .contacts {
     padding: 6.5rem 3rem;
-    outline: 2px solid red;
+    // outline: 2px solid red;
 
     & > h1, h2, p {
         margin: 1.4rem 0;
@@ -9,14 +9,46 @@
         transition: $slowAnim;
         margin: 1.5rem 0;
         @include hoverLight();
+        @media ($tablet) {
+            // font-size: 2rem;
+        }
+    }
+
+    @media ($tablet) {
+        padding: 18rem 3rem;
+        display: flex;
+        flex-direction: column;
+        margin: auto;        
+        max-width: 55%;
+    }
+
+    &__link {
+        @media ($tablet) {
+            font-size: 2.7rem;
+        }
+    }
+}
+
+.btn {
+    @media ($tablet) {
+        width: 60%;
+        font-size: 2.7rem;
+        text-align: center;    
     }
 }
 
 .socico {
     padding: 2rem 1rem;
     transition: $regAnim;
+        
     &:hover{
         scale: 1.1;
         filter: brightness(2) hue-rotate(-150deg);
+    }
+}
+
+.social-icons {
+    @media ($tablet) {
+        margin-top: 5rem;
     }
 }

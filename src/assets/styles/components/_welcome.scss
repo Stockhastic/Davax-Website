@@ -1,4 +1,6 @@
 .welcome{
+    animation: fadeInLeft 1.3s forwards;
+    animation-timing-function: cubic-bezier(cubic-bezier(.25,.1,.25,1));
     min-height: 60vh;
     padding: 6.5rem 3rem;
 

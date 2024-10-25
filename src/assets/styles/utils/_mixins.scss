@@ -44,5 +44,6 @@
 @mixin hoverLight{
     &:hover{
         color: $buttonFontColor;
+        transform: translateX(2%);
     }
 }

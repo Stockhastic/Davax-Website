@@ -10,6 +10,7 @@ $buttonColor: #9263BF;
 // $textColor: 
 $primaryFontColor: $white; 
 $buttonFontColor: #7BEDC4;
+$contactParagraphFontColor: #4A5980;
 
 // fonts
 $heading1Font:"TekoBold"; 
@@ -29,6 +30,7 @@ $paragraphSizeMobile:  1.4rem;
 $dividerHeight: 500px;
 $linksSizeMobile: 1.6rem;
 $buttonFontSize: 1.2rem;
+$textareaSizeMobile: 2.3rem;
 
 //desktop sizes
 $heading1SizeDesktop: 14rem; 
@@ -47,4 +49,7 @@ $desktop: "min-width: 1024px";
 $slowAnim: 0.33s;
 $regAnim: 0.25s;
 $slowAnim: 1.3s;
+
+//other
+$inputBGColor: #EDF0F7;
 

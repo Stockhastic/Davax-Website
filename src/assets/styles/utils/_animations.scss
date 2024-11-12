@@ -19,3 +19,38 @@
         transform: translateX(0%);
     }
 }
+
+@keyframes fadeInSize {
+    0% {
+        opacity: 0;
+        scale: 0;
+    }
+    100% {
+        opacity: 1;
+        scale: 1;
+    }
+}
+
+// @keyframes 
+
+// @keyframes fadeInRight {
+//     0% {
+//         opacity: 0;
+//         transform: translateX(10%);
+//     }
+//     100% {
+//         opacity: 1;
+//         transform: translateX(0%);
+//     }
+// };
+
+.test {
+    animation: fadeInRight 5s;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    width: 200px;
+    height: 200px;
+    color: #fff;
+    background-color: black;
+}

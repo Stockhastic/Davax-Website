@@ -13,6 +13,16 @@
         width: 80%;
         font-size: 10rem;
         line-height: 1.55;
+
+        @media ($mobilesMicroMax) {
+            font-size: 5rem;
+            margin-top: 4rem;
+        }
+
+        @media ($desktopMax) {
+            margin-top: 1rem;
+            line-height: 1.2;
+        }
     }
     
     &__description {
@@ -24,11 +34,31 @@
         & > h1 { 
             color: $primaryColor;
             margin-bottom: 5rem;
+
+            @media ($mobilesMicroMax) {
+                margin-bottom: 1.4rem;                
+            }
+
         }
         & > p{
             color: $contactParagraphFontColor;
             width: 90%;
+
+            @media ($mobilesMicroMax) {
+                font-size: 1.7rem;
+            }
+            @media ($desktopMax) {
+                font-size: $paragraphSizeDesktop;
+                margin-top: 0;
+            }
+        
         }
+
+        @media ($mobilesLMax) {
+            margin: 0;
+            width: 90%;
+        }
+
     }
     
     &__input {
@@ -37,7 +67,24 @@
         margin-right: 9.5rem;
         // outline: 1px solid red;
         flex-grow: 1;
+
+        @media ($mobilesLMax) {
+            margin: 2rem auto;
+        }
     }
+
+    @media ($desktopMax) {
+        margin: 5rem auto;
+        width: 90%;
+        
+    }
+
+    @media ($mobilesLMax) {
+        flex-wrap: wrap;
+        margin: 6rem auto;
+        width: 85%;
+    }
+
 }
 
 form {
@@ -54,9 +101,18 @@ form {
         background-color: $inputBGColor;
         border: none;
 
-        // &__submit {
-        //     background-color: $primaryColor;
-        // }
+
+        @media ($mobilesMicroMax) {
+            padding: 1.8rem;
+            width: 80%;
+            margin: 1rem 3rem;
+            font-size: 1.7rem;
+        }
+
+        @media ($desktopMax) {
+            width: 80%;
+            margin-left: 3rem;
+        }
     }
 
     & > textarea {
@@ -71,6 +127,17 @@ form {
         border: none;
         background-color: $inputBGColor;
         resize: none;
+
+        @media ($desktopMax) {
+            width: 80%;
+            margin-left: 3rem;
+        }
+
+        @media ($mobilesMicroMax) {
+            width: 80%;
+            margin: 1rem 3rem;
+            font-size: 1.7rem;
+        }
     }
 
     & > .formSubmit {
@@ -80,10 +147,6 @@ form {
         text-align: left;
         padding: 3rem 4rem;
     
-        // &::after {
-        //     content: ;
-        // }
-
     }
 }
 

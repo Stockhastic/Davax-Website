@@ -43,8 +43,14 @@ $heading2LSDesktop: 10;
 
 //screens
 
+$mobilesM: "min-width: 375px";
+$mobilesL: "min-width: 425px"; 
 $tablet: "min-width: 768px";
 $desktop: "min-width: 1024px";
+
+$desktopMax: "max-width: 1440px";
+$mobilesLMax: "max-width: 768px";
+$mobilesMicroMax: "max-width: 475px"; 
 
 //animation speed
 $slowAnim: 0.33s;
@@ -55,3 +61,4 @@ $slowAnim: 1.3s;
 $inputBGColor: #EDF0F7;
 $inputBGHoverColor: #c5cad8;
 
+//$staticLightColor: #000;

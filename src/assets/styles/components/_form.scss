@@ -45,10 +45,10 @@
             width: 90%;
 
             @media ($mobilesMicroMax) {
-                font-size: 1.7rem;
+                font-size: 1.3rem;
             }
             @media ($desktopMax) {
-                font-size: $paragraphSizeDesktop;
+                font-size: 1.8rem;
                 margin-top: 0;
             }
         

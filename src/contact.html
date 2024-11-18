@@ -21,16 +21,27 @@
                           and we’re here to help!</p>
                 </div>
                 <div class="contact__input">
-                    <form action="#">
-                        <input placeholder="Name" type="text" required><br>
-                        <input placeholder="Email" type="email" required><br>
-                        <input placeholder="Phone number (optional)" type="tel"><br>
-                        <textarea name="textarea" required>Message</textarea><br>
+                    <form action="https://api.web3forms.com/submit" method="POST">
+                        <input type="hidden" name="access_key" value="fef5bfef-1720-4683-bc52-f8013090217a">
+
+                        <input placeholder="Name" name="Name" type="text" required><br>
+                        <input placeholder="Email" name="Mail for feedback" type="email" required><br>
+                        <input placeholder="Phone number (optional)" name="Phone number" type="tel"><br>
+                        <textarea name="textarea" name="Message Text" required>Message</textarea><br>
+                        
+                        <!-- Honeypot spam protection -->
+                        <input type="checkbox" name="botcheck" class="hidden" style="display: none;">
+                        <!-- <input type="hidden" name="redirect" value="https://sitename.com/"> -->
+
+
                         <input class="formSubmit" type="submit" value="Contact Us">
                     </form>
                 </div>
             </section>
-            <br><br>
+            <a href="index.html" class="btn btn-back">Back to main page</a>
+            <br>
+            <br>
+            <br>
         </main> 
     </body>
 </html> 

@@ -1,4 +1,8 @@
 .contact {
+    transition: $regAnim;
+    animation: fadeInRight 1.3s forwards;
+
+
     display: flex;
     flex-direction: row;
     justify-content: space-around;
@@ -8,6 +12,7 @@
     width: 70%;
     // height: 100vh;
     border-radius: 30px;
+    margin-bottom: 4rem;
 
     &__title {
         width: 80%;
@@ -160,4 +165,17 @@ input:focus {
     outline: 2px solid $primaryColor;
     background-color: $inputBGHoverColor ;
 
+}
+
+.btn-back {
+    height: 100px;
+    width: 50%;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    margin: 0 auto;
+
+    @media ($mobilesLMax) {
+        width: 65%;
+    }
 }

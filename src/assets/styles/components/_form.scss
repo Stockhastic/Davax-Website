@@ -16,7 +16,6 @@
 
         @media ($mobilesMicroMax) {
             font-size: 5rem;
-            margin-top: 4rem;
         }
 
         @media ($desktopMax) {
@@ -36,7 +35,8 @@
             margin-bottom: 5rem;
 
             @media ($mobilesMicroMax) {
-                margin-bottom: 1.4rem;                
+                margin-bottom: 1.4rem; 
+                margin-top: 3rem;               
             }
 
         }
